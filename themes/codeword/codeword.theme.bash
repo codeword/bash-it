@@ -30,8 +30,6 @@ prompt() {
 
 share_history() {
   history -a
-  history -c
-  history -r
 }
 
 safe_append_prompt_command share_history
